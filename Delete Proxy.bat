@@ -4,3 +4,5 @@ REG DELETE "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet
 
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings" ^
     /v AutoConfigURL /t REG_SZ /d "" /F
+
+Pause
