@@ -75,7 +75,7 @@ if /I "%c%" EQU "0" goto :MainMenu
 :NetworkToolsMenu
 CLS
 echo.
-echo [1] Ping NAS.deKoning.IT
+echo [1] Ping vincentdekoning.nl
 echo [2] Show internal IP adress
 echo [3] Show external IP adress
 echo [4] Show my hostname
@@ -98,9 +98,9 @@ if /I "%c%" EQU "0" goto :MainMenu
 
 	:Ping
 	CLS
-	echo "You selected - Ping NAS.deKoning.IT"
+	echo "You selected - Ping vincentdekoning.nl"
 	echo.
-	ping NAS.dekoning.it
+	ping vincentdekoning.nl
 	echo.
 	pause
 	goto :NetworkToolsMenu
